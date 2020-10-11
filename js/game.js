@@ -1,5 +1,13 @@
 'use strict';
 
+var fireballSize;
+var getFireballSpeed;
+var wizardSpeed;
+var wizardWidth;
+var getWizardHeight;
+var getWizardX;
+var getWizardY;
+
 window.GameConstants = {
   Fireball: {
     size: fireballSize || 24,
