@@ -62,10 +62,9 @@ window.renderStatistics = function (ctx, names, times) {
 
     if (names[i] === 'Вы') {
       ctx.fillStyle = 'rgba(255, 0, 0, 1)';
-    }
-    else {
+    } else {
       ctx.fillStyle = 'hsl(240,' + Math.random() * 100 + '%, 50%)';
-    };
+    }
 
     ctx.fillRect(
         tableX + (BAR_WIDTH + TEXT_WIDTH) * i,
